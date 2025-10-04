@@ -1,0 +1,16 @@
+{
+  "name": "Rust Development Environment",
+  // Use a pre-built Rust image
+  "image": "mcr.microsoft.com/devcontainers/rust:latest", 
+  
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  
+  // Install relevant VS Code extensions for Rust development
+  "extensions": [
+    "rust-lang.rust-analyzer",
+    "serayuzgur.crates",
+    "tamasfe.even-better-toml"
+  ]
+}
